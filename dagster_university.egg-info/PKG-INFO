@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dagster_university
+Version: 0.0.0
+Requires-Dist: dagster==1.6.*
+Requires-Dist: dagster-cloud
+Requires-Dist: dagster-duckdb
+Requires-Dist: dagster-dbt
+Requires-Dist: dbt-duckdb
+Requires-Dist: geopandas
+Requires-Dist: kaleido
+Requires-Dist: pandas[parquet]
+Requires-Dist: plotly
+Requires-Dist: shapely
+Requires-Dist: smart_open[s3]
+Requires-Dist: s3fs
+Requires-Dist: smart_open
+Requires-Dist: boto3
+Requires-Dist: pyarrow
+Requires-Dist: fastparquet
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
